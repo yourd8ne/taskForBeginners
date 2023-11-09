@@ -4,9 +4,16 @@ using namespace std;
 
 int main(){
     int n;
-    string e = "2.7182818284590452353602875";//25 после запятой
+    string s = "27182818284590452353602875";
     cin >> n;
-    e.erase(n, 25);
-    cout << e << endl;
+    for(int i = 0; i < n; i++)
+    {
+        cout << s[i];
+        if(i=0) cout << '.';
+
+    }
+    if(s[n+1] > '4') cout << char(s[n] + 1);
+    else cout << s[n];
+    cout << endl;
     return 0;
 }
