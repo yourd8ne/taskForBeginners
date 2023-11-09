@@ -9,7 +9,7 @@ int main(){
     for(int i = 0; i < n; i++)
     {
         cout << s[i];
-        if(i=0) cout << '.';
+        if(i==0) cout << '.';
 
     }
     if(s[n+1] > '4') cout << char(s[n] + 1);

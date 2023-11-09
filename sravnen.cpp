@@ -9,7 +9,7 @@ int main(){
     string line, line1;
     if (input_file.is_open()) {
         getline(input_file, line);
-        getline(input_file, line1);    
+        getline(input_file, line1);
         input_file.close();
     } else {
         cout << "Unable to open input file" << endl;
